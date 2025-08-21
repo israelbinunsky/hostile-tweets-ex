@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-import pandas as pd
 
 class fetcher:
    def __init__(self, uri, dbname, collection):
